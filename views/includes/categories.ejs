@@ -1,0 +1,107 @@
+<div class="mb-3">
+  <label class="form-label fw-bold"><b>Categories</b></label
+  >&nbsp;&nbsp;&nbsp;
+  <button
+    class="btn btn-outline-dark mb-2"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#categoryOptions"
+    id="categoryBtn"
+  >
+    Select Categories
+  </button>
+
+  <div class="collapse" id="categoryOptions">
+    <div class="card card-body">
+      <div class="mb-2">
+        <button
+          type="button"
+          class="btn btn-outline-dark btn-sm"
+          id="selectAllBtn"
+        >
+          Select All
+        </button>
+      </div>
+
+      <div class="category-grid">
+        <div class="category-card" data-value="Trending">
+          <i class="fa-solid fa-fire"></i>
+          <span>Trending</span>
+        </div>
+
+        <div class="category-card" data-value="Rooms">
+          <i class="fa-solid fa-bed"></i>
+          <span>Rooms</span>
+        </div>
+
+        <div class="category-card" data-value="Mountains">
+          <i class="fa-solid fa-mountain"></i>
+          <span>Mountains</span>
+        </div>
+
+        <div class="category-card" data-value="Camping">
+          <i class="fa-solid fa-campground"></i>
+          <span>Camping</span>
+        </div>
+
+        <div class="category-card" data-value="Amazing Pools">
+          <i class="fa-solid fa-person-swimming"></i>
+          <span>Amazing Pools</span>
+        </div>
+
+        <div class="category-card" data-value="Castles">
+          <i class="fa-brands fa-fort-awesome"></i>
+          <span>Castles</span>
+        </div>
+
+        <div class="category-card" data-value="Farms">
+          <i class="fa-brands fa-cow"></i>
+          <span>Farms</span>
+        </div>
+
+        <div class="category-card" data-value="Arctic">
+          <i class="fa-regular fa-snowflake"></i>
+          <span>Arctic</span>
+        </div>
+
+        <div class="category-card" data-value="Domes">
+          <i class="fa-solid fa-igloo"></i>
+          <span>Domes</span>
+        </div>
+
+        <div class="category-card" data-value="Boats">
+          <i class="fa-solid fa-ship"></i>
+          <span>Boats</span>
+        </div>
+
+        <div class="category-card" data-value="Food">
+          <i class="fa-solid fa-burger"></i>
+          <span>Food</span>
+        </div>
+
+        <div class="category-card" data-value="Party">
+          <i class="fa-solid fa-champagne-glasses"></i>
+          <span>Party</span>
+        </div>
+
+        <div class="category-card" data-value="Iconic Cities">
+          <i class="fa-solid fa-mountain-city"></i>
+          <span>Iconic Cities</span>
+        </div>
+      </div>
+
+      <div id="selectedCategories"></div>
+
+      <button
+        type="button"
+        class="btn btn-danger mt-3"
+        id="doneCategories"
+        data-bs-toggle="collapse"
+        data-bs-target="#categoryOptions"
+      >
+        Done
+      </button>
+    </div>
+  </div>
+  <div id="categoryInputs"></div>
+</div>
