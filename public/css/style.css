@@ -572,3 +572,7 @@ body {
 .review-delete-btn:hover {
   color: #dc3545;
 }
+
+.no-results {
+  white-space: nowrap;
+}
